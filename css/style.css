@@ -1,0 +1,260 @@
+.INBBE-CHATBOT-chat-inbbe-container {
+  padding: 0;
+  margin: 0;
+}
+
+#INBBE-CHATBOT-inbbe-link{
+    text-decoration: none;
+    color:#E2E8E9;
+}
+#INBBE-CHATBOT-chat-bot{
+	bottom: 6%;
+	left:90%;
+	height:100px;
+	width:100px;
+	-ms-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-o-border-radius: 50px;
+	border-radius: 50px;
+	background: #007bff;
+	position:fixed; 
+	z-index:100; 
+}
+#INBBE-CHATBOT-icon-send{
+    margin-left:5px;
+    margin-top: 15px;
+    cursor:pointer;
+}
+.INBBE-CHATBOT-container-top{
+	height:50%;
+	width:16%;
+	position: fixed;
+	z-index:101;
+	top:35%;
+	left:82%;
+}
+.INBBE-CHATBOT-container-msg
+{
+	max-width: 500 !important;
+	margin:auto;
+	margin-top: 4%;
+	/*font-family: sans-serif;*/
+	letter-spacing:0.5px;
+}
+
+.INBBE-CHATBOT-outgoing-img, .INBBE-CHATBOT-received-img{
+	max-width:100%;
+}
+.INBBE-CHATBOT-msg-header{
+	border: 1px solid #ccc;
+	width: 100%;
+	height:10%;
+	border-bottom: none;
+	display: inline-block;
+	background-color: #007bff;
+
+}
+.INBBE-CHATBOT-outgoing-img, .received-img
+{
+	max-width:100%;
+	border-radius:50%;
+}
+
+.INBBE-CHATBOT-msg-header-img 
+{ 
+	border-radius:50%;
+	width:40%;
+	margin-left:5%;
+	margin-top:12px;
+	float:left;
+}
+.INBBE-CHATBOT-active
+{
+	width:120px;
+	float:left;
+	margin-top:10px;
+}
+
+.INBBE-CHATBOT-active h4
+{
+	/*font-size:20px;*/
+	font-size:17px;
+	margin-left:10px;
+	color:white;
+}
+.INBBE-CHATBOT-active h6
+{
+	/*font-size:10px;*/
+	font-size:10px;
+	margin-left:10px;
+	line-height:2px;
+	color:white;
+}
+
+.INBBE-CHATBOT-header-icons
+{
+	width: 120px;
+	float:right;
+	margin-top:12px;
+	margin-right:10px;
+
+}
+
+.INBBE-CHATBOT-header-icons .fa{
+	color:#fff;
+	cursor:pointer;
+	margin:10px;
+} 
+
+.INBBE-CHATBOT-chat-page
+{
+	/*padding: 0 0 50px 0;*/
+	padding: 0 0 50px 0;
+}
+.INBBE-CHATBOT-msg-inbox
+{
+    background: white;
+	border:1px solid #ccc;
+	overflow:hidden;
+	/*padding-bottom:30px;*/
+	padding-bottom: 10px;
+
+}
+.INBBE-CHATBOT-chats
+{
+	/*padding: 30px 15px 0 25px;*/
+	padding: 10px 10px 0 10px;
+}
+.INBBE-CHATBOT-msg-page
+{
+	/*height:516px;*/
+	height:328px;
+	overflow-y:auto;
+}
+.INBBE-CHATBOT-received-chats-img
+{
+	display:inline-block;
+	width:20px;
+	float:left;
+}
+.INBBE-CHATBOT-received-msg
+{
+	display:inline-block;
+	padding: 0 0 0 10px;
+	vertical-align:top;
+	width:92%;
+
+}
+.INBBE-CHATBOT-received-msg-inbox
+{
+	width:57%;
+
+}
+.INBBE-CHATBOT-received-msg-inbox p
+{
+	background:#efefef none repeat scroll 0 0;
+	border-radius:10px;
+	color:#646464;
+	font-size:14px;
+	margin:0;
+	padding:5px 10px 5px 12px;
+	width:100%;
+}
+.INBBE-CHATBOT-time
+{
+	color:#777;
+	display:block;
+	font-size:12px;
+	margin:8px 0 0;
+}
+.INBBE-CHATBOT-outgoing-chats
+{
+	overflow:hidden;
+	margin:26px 20px;
+}
+.INBBE-CHATBOT-outgoing-chats-msg p
+{
+	background:#007bff none repeat scroll 0 0;
+	color: #fff;
+	border-radius:10px;
+	font-size:14px;
+	margin:0;
+	color:#fff;
+	padding:5px 10px 12px;
+	width:100%;
+}
+.INBBE-CHATBOT-outgoing-chats-msg
+{
+	float: left;
+	width: 46%;
+	margin-left:45%;
+
+}
+.INBBE-CHATBOT-outgoing-chats-img
+{
+	display:inline-block;
+	width:20px;
+	float:right;
+}
+.INBBE-CHATBOT-msg-bottom
+{
+	position:relative;
+	height:10%;
+	background-color: #007bff;
+
+}
+
+.INBBE-CHATBOT-input-group
+{
+	display:flex;
+	
+	margin-top:13px;
+	margin-right:20px;
+	outline: none !important;
+	border-radius:20px;
+	width: 61% !important;
+	background-color: #fff;
+	padding:0px !important;
+	height: 0px !important;
+	
+}
+
+.INBBE-CHATBOT-input-group .form-control
+{
+	border:none !important;
+	border-radius: 20px !important;
+
+}
+.INBBE-CHATBOT-input-group-text
+{
+	background: transparent !important;
+	border:none !important;
+	
+}
+.INBBE-CHATBOT-input-group .fa
+{
+	color: #007bff;
+	float:right;
+}
+.INBBE-CHATBOT-bottom-icons
+{
+	float:left;
+	margin-top:17px;
+	width:30% !important;
+	margin-left:22px;
+	
+}
+.INBBE-CHATBOT-bottom-icons .fa
+{
+	color:#fff;
+	padding:5px;
+
+}
+
+INBBE-CHATBOT-input-group .form-control:focus
+{
+	border-color:none !important;
+	box-shadow:none !important;
+	border-radius:20px;
+}
